@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 2</title>
+    <h1>CSS-Task 2</h1>
+    <style>
+        #firstul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: lightblue;
+            width: 300px;
+            border: 6px solid white;
+            border-style: solid;
+        }
+        #secondul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: lightgrey;
+            width: 300px;
+            border: 5px solid white;
+            border-style: solid;
+            display: flex;
+        }
+        li a{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+        }
+        #firstul li a:hover{
+            background-color: orange;
+            -webkit-text-fill-color: white;
+        }
+        #secondul li a:hover{
+            background-color: grey;
+            -webkit-text-fill-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h3>Vertical Navigation</h3>
+    <table border="1" cellspacing="0"> 
+        <tr><td>
+    <ul id="firstul">
+        <li><a href="#" id="first"><b>Home</b></a></li>
+        <li><a href="#" id="first"><b>Java</b></a></li>
+        <li><a href="#" id="first"><b>CSS</b></a></li>
+        <li><a href="#" id="first"><b>HTML</b></a></li>
+        <li><a href="#" id="first"><b>Bootstrap</b></a></li>
+    </ul>
+    </td></tr>
+    </table>
+    <br><br>
+    <h3>Horizontal Navigation</h3>
+    <table border="1" cellspacing="0"> 
+        <tr><td>
+    <ul id="secondul">
+        <li><a href="#" id="second"><b>Home</b></a></li>
+        <li><a href="#" id="second"><b>Java</b></a></li>
+        <li><a href="#" id="second"><b>HTML</b></a></li>
+        <li><a href="#" id="second"><b>CSS</b></a></li>
+    </ul>
+    </td></tr>
+    </table>
+</body>
+</html>
